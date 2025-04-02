@@ -1,4 +1,4 @@
 {
     "C_Cpp.formatting": "clangFormat",
-    "clang-format.executable": "D:\\CodingProjects\\CLang\\.vscode\\.clang-format"
+    "clang-format.executable": "D:\\CodingProjects\\CLang\\.vscode\\.clang-format",
 }
