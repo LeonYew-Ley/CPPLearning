@@ -1,0 +1,5 @@
+*.exe
+*/.archive
+*/.runtime
+*/cmake-build-debug/
+.idea

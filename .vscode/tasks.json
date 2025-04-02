@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "label": "Run Single File C++",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "&&",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compile and run SingleFile C++ file"
+        }
+    ],
+    "version": "2.0.0"
+}

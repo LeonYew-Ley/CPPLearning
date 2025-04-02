@@ -1,0 +1,27 @@
+# .clang-format
+
+# 基本样式配置
+BasedOnStyle: Google  # 可以选择其他样式，如 LLVM, WebKit, Mozilla 等
+IndentWidth: 2        # 缩进宽度
+TabWidth: 2           # Tab 宽度
+UseTab: Never         # 不使用 Tab，始终用空格缩进
+ColumnLimit: 80       # 每行最大字符数
+
+# 行尾空格
+KeepEmptyLinesAtTheStartOfBlocks: false  # 删除空行
+AllowShortFunctionsOnASingleLine: Inline  # 允许短函数写在一行
+
+# 类型和变量
+SpaceBeforeParens: ControlStatements  # 在控制语句中 (如 if, for) 的括号前加空格
+SpaceBeforeAssignmentOperators: true  # 赋值操作符前加空格
+SpacesBeforeTrailingComments: 1       # 行尾注释前加空格
+
+# 注释
+CommentPragmas: '^.*$'  # 允许所有类型的注释
+MaxEmptyLinesToKeep: 1  # 保留空行的最大数量
+
+# 对齐
+AlignAfterOpenBracket: Align  # 在函数参数列表中对齐
+
+# 函数和方法
+BreakBeforeBraces: Allman  # 函数大括号放在新的一行
