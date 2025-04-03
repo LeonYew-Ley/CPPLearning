@@ -1,14 +1,20 @@
+/*
+给定一个字符串A和一个字符串B，计算B在A中出现的次数
+
+输入：
+第一行：字符串A
+第二行：字符串B
+
+输出：
+B在A中出现的次数
+ */
+
 #include <iostream>
 #include <string>
 using namespace std;
 
 int countSubstring(const string& str, const string& sub)
 {
-  if (sub.empty() || str.empty() || sub.length() > str.length())
-  {
-    return 0;
-  }
-
   int count = 0;
   size_t pos = 0;
 

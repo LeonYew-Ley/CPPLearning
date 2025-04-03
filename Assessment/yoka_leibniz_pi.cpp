@@ -1,3 +1,12 @@
+/*
+计算π的值，使用莱布尼茨公式
+输入：
+第一行：迭代次数N
+
+输出：
+使用N次迭代计算的π值，保留6位小数
+ */
+
 #include <cmath>
 #include <iomanip>
 #include <iostream>
