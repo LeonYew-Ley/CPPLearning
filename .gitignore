@@ -1,11 +1,11 @@
+*
+!*/
+!*.*
 *.exe
 */.archive
 */.runtime
 */cmake-build-debug/
-.idea*.out
-*.exe
+.idea
 *.dSYM/
 *.DS_Store
-*
-!*/  # 不忽略文件夹
-!*.*
+*.out
