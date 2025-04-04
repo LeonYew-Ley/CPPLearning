@@ -16,7 +16,7 @@ using namespace std;
 int countSubstring(const string& str, const string& sub)
 {
   int count = 0;
-  size_t pos = 0;
+  size_t pos = 0; // size_t 无符号整数，从0开始索引，C#中是uint、ushort
 
   // 使用find函数查找所有出现的位置，包括重叠的情况
   while ((pos = str.find(sub, pos)) != string::npos)

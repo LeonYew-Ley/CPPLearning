@@ -2,8 +2,8 @@
 
 # 基本样式配置
 BasedOnStyle: Google  # 可以选择其他样式，如 LLVM, WebKit, Mozilla 等
-IndentWidth: 2        # 缩进宽度
-TabWidth: 2           # Tab 宽度
+IndentWidth: 4        # 缩进宽度
+TabWidth: 4           # Tab 宽度
 UseTab: Never         # 不使用 Tab，始终用空格缩进
 ColumnLimit: 80       # 每行最大字符数
 
