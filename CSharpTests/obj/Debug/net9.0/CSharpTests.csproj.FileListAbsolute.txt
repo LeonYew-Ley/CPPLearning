@@ -1,0 +1,15 @@
+D:\CodingProjects\CLang\CSharpTests\bin\Debug\net9.0\CSharpTests.exe
+D:\CodingProjects\CLang\CSharpTests\bin\Debug\net9.0\CSharpTests.deps.json
+D:\CodingProjects\CLang\CSharpTests\bin\Debug\net9.0\CSharpTests.runtimeconfig.json
+D:\CodingProjects\CLang\CSharpTests\bin\Debug\net9.0\CSharpTests.dll
+D:\CodingProjects\CLang\CSharpTests\bin\Debug\net9.0\CSharpTests.pdb
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.AssemblyInfoInputs.cache
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.AssemblyInfo.cs
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.csproj.CoreCompileInputs.cache
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.sourcelink.json
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.dll
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\refint\CSharpTests.dll
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.pdb
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\CSharpTests.genruntimeconfig.cache
+D:\CodingProjects\CLang\CSharpTests\obj\Debug\net9.0\ref\CSharpTests.dll

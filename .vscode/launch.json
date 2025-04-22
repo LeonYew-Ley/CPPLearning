@@ -1,7 +1,4 @@
 {
-    // 使用 IntelliSense 了解相关属性。 
-    // 悬停以查看现有属性的描述。
-    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -11,20 +8,26 @@
             "program": "${workspaceFolder}/main",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "terminal": "integrated" // 或 "external"
+            "terminal": "integrated"
         },
         {
-            "name": "LLDB 调试",
+            "name": "C/C++ Runner: Debug Session",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "Run Single File C++" // 与 tasks.json 的 label 一致
+            "externalConsole": true,
+            "cwd": "d:/CodingProjects/CLang/CPPLearn/inline functions",
+            "program": "d:/CodingProjects/CLang/CPPLearn/inline functions/build/Debug/outDebug",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
         }
     ]
 }

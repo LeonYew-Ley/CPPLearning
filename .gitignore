@@ -12,6 +12,8 @@
 */.runtime
 */cmake-build-debug/
 .idea
+.idea
 *.dSYM/
 *.DS_Store
+*.out
 *.out
