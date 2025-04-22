@@ -1,4 +1,8 @@
 {
     "C_Cpp.formatting": "clangFormat",
     "clang-format.executable": "D:\\CodingProjects\\CLang\\.vscode\\.clang-format",
+    "files.associations": {
+        "vector": "cpp",
+        "iostream": "cpp"
+    },
 }

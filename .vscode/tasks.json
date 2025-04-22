@@ -5,6 +5,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
+                "-std=c++11",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
@@ -18,7 +19,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "detail": "Compile and run SingleFile C++ file"
+            "detail": "Compile and run SingleFile C++ file with strict header control"
         }
     ],
     "version": "2.0.0"
