@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Learn\\.nuget\\packages\\": {}
+    "/Users/leonyew/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodingProjects\\CLang\\CSharpTests\\CSharpTests.csproj",
+      "projectUniqueName": "/Users/leonyew/CPPLearning/CSharpTests/CSharpTests.csproj",
       "projectName": "CSharpTests",
-      "projectPath": "D:\\CodingProjects\\CLang\\CSharpTests\\CSharpTests.csproj",
-      "packagesPath": "C:\\Users\\Learn\\.nuget\\packages\\",
-      "outputPath": "D:\\CodingProjects\\CLang\\CSharpTests\\obj\\",
+      "projectPath": "/Users/leonyew/CPPLearning/CSharpTests/CSharpTests.csproj",
+      "packagesPath": "/Users/leonyew/.nuget/packages/",
+      "outputPath": "/Users/leonyew/CPPLearning/CSharpTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Learn\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/leonyew/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -60,12 +60,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.13, 8.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.13, 8.0.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
